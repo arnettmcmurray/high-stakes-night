@@ -81,6 +81,28 @@
             <input type="date" id="dob" name="dob" required />
           </div>
 
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="e.g. (312) 555-1234"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="referral">How did you hear about this event?</label>
+            <select id="referral" name="referral" required>
+              <option value="">-- Please Choose --</option>
+              <option value="friend">Friend</option>
+              <option value="staff">Event Staff</option>
+              <option value="newsletter">Newsletter</option>
+              <option value="social">Social Media</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
           <button id="submit-btn">Register</button>
         </form>
       </section>
