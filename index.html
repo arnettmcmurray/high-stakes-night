@@ -8,19 +8,23 @@
   </head>
   <body>
     <header>
-        <img src="images/logo.png" alt="High Stakes Night Logo" />
+      <img src="images/logo-goldchip.jpg" alt="High Stakes Night Logo" class="logo" />
+        <img src="images/hero-table.jpg" alt="Tournament table setup with players" class="hero-image" />
         <h1>High Stakes Night</h1>
         <h2>Charity Poker Tournament 2025</h2>
         <p><em>No bluffing—just vibes.</em></p>
         
         <nav>
-          <a href="#event-info">Event Info</a>
-          <a href="#sign-up">Register</a>
-          <a href="#contact">Contact</a>
+          <nav>
+            <a href="#event-info">Event Info</a>
+            <a href="#sign-up">Register</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          
         </nav>
       </header>
       
-
     <main>
       <section id="event-info">
         <h2>Event Details</h2>
@@ -28,6 +32,7 @@
           Join us for an unforgettable night of poker, prizes, and philanthropy.
         </p>
         <ul>
+          <img src="images/dj-crowd.jpg" alt="DJ performing for dancing crowd" class="event-highlight" />
           <li>Professional Dealer Tables</li>
           <li>Cash & Prize Payouts</li>         
           <li>Live DJ & Open Bar</li>
@@ -39,14 +44,12 @@
           <strong>Date:</strong> September 11, 2025<br />
           <strong>Time:</strong> 7:00 PM – Midnight<br />
           <strong>Location:</strong> The Drake Hotel, Chicago, IL
-        </p>
-        <img
-          src="images/event-photo.jpg"
-          alt="Poker table with chips and cards"
-        />
+        </p>      
       </section>
 
       <section id="sign-up">
+        <img src="images/cognac-cards.jpg" alt="Glass of cognac beside playing cards" class="cutaway-image" />
+
         <h2>Register Now</h2>
         <p>
           Secure your spot for a night of fun and fundraising! Fill out the form
@@ -55,29 +58,29 @@
 
         <form action="#" method="POST">
           
-            <div class="form-group">
+            <div >
             <label for="first-name">First Name*</label>
             <input type="text" id="first-name" name="first-name" required />
           </div>
 
-          <div class="form-group">
+          <div >
             <label for="last-name">Last Name*</label>
             <input type="text" id="last-name" name="last-name" required />
           </div>
 
-          <div class="form-group">
+          <div >
             <label for="email">Email Address*</label>
             <input type="email" id="email" name="email" required />
           </div>
 
-          <div class="form-group">
+          <div >
             <label>
               <input type="checkbox" id="newsletter" name="newsletter" />
               Sign me up for event updates and newsletters
             </label>
           </div>
 
-          <div class="form-group">
+          <div >
             <label for="city">City</label>
             <input
               type="text"
@@ -87,7 +90,7 @@
             />
           </div>
 
-          <div class="form-group">
+          <div >
             <label for="state">State</label>
             <select id="state" name="state">
               <option value="">-- Select State --</option>
@@ -99,22 +102,22 @@
             </select>
           </div>
 
-          <div class="form-group">
+          <div >
             <label for="dob">Date of Birth</label>
             <input type="date" id="dob" name="dob" required />
           </div>
 
-          <div class="form-group">
+          <div >
             <label for="phone">Phone Number</label>
             <input
               type="tel"
               id="phone"
               name="phone"
-              placeholder="e.g. (312) 555-1234"
+              placeholder="e.g. (312) 588-2300"
             />
           </div>
 
-          <fieldset class="form-group">
+          <fieldset >
             <legend>Ticket Type <small>(bragging rights not included)</small></legend>
 
 
@@ -134,7 +137,7 @@
             </label>
           </fieldset>
 
-          <div class="form-group">
+          <div >
             <label for="referral">How did you hear about this event?</label>
             <select id="referral" name="referral" required>
               <option value="">-- Please Choose --</option>
@@ -146,7 +149,7 @@
             </select>
           </div>
 
-          <div class="form-group">
+          <div >
             <label>
                 <input type="checkbox" id="age-confirm" name="age-confirm" required>
                 I certify that I am over 21 and won’t rage if I bust early
@@ -168,11 +171,26 @@
         <h3>Thank you for registering!</h3>
         <p>We look forward to seeing you at the event.</p>
       </section>
+      <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="photo-grid">
+          <!-- remaining 4 images go here -->
+          <img src="images/drake-room.jpg" alt="Elegant poker room at The Drake Hotel" />
+          <img src="images/goldchips.jpg" alt="Gold poker chips on black table" />
+          <img src="images/casino-felt.jpg" alt="Casino felt with dice and chips" />
+          <img src="images/action.jpg" alt="High-stakes poker game in action" />
+          <img src="images/allin.jpg" alt="Player pushing all chips in for an all-in" />
+          <img src="images/fulltable.jpg" alt="Full poker table with players and dealer" />
+      </div>
+      </section>
+      
     </main>
 
     <footer>
       <h3>Contact Us</h3>
       <p>Email: events@highstakesnight.org<br />Phone: (312) 555-0192</p>
+      <img src="images/stacked-chips.jpg" alt="Stack of poker chips" class="footer-image" />
+      <p> Follow us on social media for updates and sneak peeks of the event!
       <footer>
         <nav>
           <a href="#">Terms & Conditions</a>
