@@ -91,6 +91,25 @@
             />
           </div>
 
+          <fieldset class="form-group">
+            <legend>Ticket Type</legend>
+
+            <label>
+              <input type="radio" name="ticket-type" value="general" required />
+              General Admission </label
+            ><br />
+
+            <label>
+              <input type="radio" name="ticket-type" value="vip" />
+              VIP Pass </label
+            ><br />
+
+            <label>
+              <input type="radio" name="ticket-type" value="student" />
+              Student (Discount with ID)
+            </label>
+          </fieldset>
+
           <div class="form-group">
             <label for="referral">How did you hear about this event?</label>
             <select id="referral" name="referral" required>
@@ -101,6 +120,18 @@
               <option value="social">Social Media</option>
               <option value="other">Other</option>
             </select>
+          </div>
+
+          <div class="form-group">
+            <label>
+              <input
+                type="checkbox"
+                id="age-confirm"
+                name="age-confirm"
+                required
+              />
+              I certify that I am over 21 years old
+            </label>
           </div>
 
           <button id="submit-btn">Register</button>
