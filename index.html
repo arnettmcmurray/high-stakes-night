@@ -141,10 +141,13 @@
             </label>
           </div>
 
-          <button id="submit-btn" type="submit" disabled>Register</button>
-        </form>
-      </section>
-
+          <div class="form-actions">
+            <button id="submit-btn" type="submit" disabled>Register</button>
+            <button type="reset">Clear Form</button>
+            <!-- TODO: Enable submit button only if DOB entered & user certifies age 21+ 
+                 JS logic will be added later (pending Dylan or further research via Google) -->
+          </div>
+                  
       <section id="confirmation" style="display: none">
         <h3>Thank you for registering!</h3>
         <p>We look forward to seeing you at the event.</p>
