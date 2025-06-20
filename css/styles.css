@@ -170,3 +170,10 @@ button {
 button:hover {
   background-color: #ffd700;
 }
+.cutaway-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
