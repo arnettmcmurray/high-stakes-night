@@ -177,3 +177,20 @@ button:hover {
   max-width: 100%;
   height: auto;
 }
+.event-highlight {
+  display: block;
+  margin: 1rem auto;
+  max-width: 80%;
+}
+
+#event-info p,
+#event-info ul,
+#sign-up h2,
+#confirmation,
+.site-footer p,
+.site-footer h3 {
+  text-align: center;
+}
+#sign-up p {
+  text-align: center;
+}
