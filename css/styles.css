@@ -36,7 +36,7 @@ footer {
   width: 120px;
   height: auto;
   display: block;
-  margin: 0 auto 10px;
+  margin: 0 auto 10px;å
 }
 
 .hero-image,
@@ -72,7 +72,7 @@ h3 {
 }
 
 .top-nav {
-  text-align: center;
+  text-align: center;å
   margin: 1rem 0;
 }
 
@@ -193,4 +193,35 @@ button:hover {
 }
 #sign-up p {
   text-align: center;
+}
+body {
+  border: 25px solid var(--primary-color);
+  box-sizing: border-box;
+}
+.map-container {
+  margin: 1.5rem auto;
+  max-width: 800px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+#confirmation {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  text-align: center;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  color: var(--text-color);
+}
+#confirmation {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--primary-color);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
 }
